@@ -1,9 +1,9 @@
 # taskmobar
 literally like a 3 line script, but it wasn't obvious how to do this at first, so I'm sharing.
 
-very simply outputs the active tasks's description for consumption by xmobar (or similar)
+very simply outputs the active task's description for consumption by xmobar (or similar)
 
-![what it looks like](taskmobar.png)
+![](taskmobar.png)
 
 if there are multiple active tasks, you just get the one with the lowest id number
 
