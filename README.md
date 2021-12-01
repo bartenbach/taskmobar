@@ -1,17 +1,17 @@
 # taskmobar
-literally like a 3 line script, but it wasn't obvious how to do this at first, so I'm sharing.
+ridiculously simple script, but it actually wasn't obvious how to go about doing this at first, so I'm sharing for the benefit of others.
 
-very simply outputs the active task's description for consumption by xmobar (or similar)
+simply outputs the active task's id and description for consumption by xmobar (or similar status bar)
 
 ![](img/taskmobar.png)
 
-if there are multiple active tasks, you just get the one with the lowest id number
+if there are multiple active tasks, you get the one with the lowest id number
 
 if there are no active tasks, it will output "No active task"
 ![](img/noactive.png)
 
 # usage
-copy the script to somewhere in your path like `/usr/local/bin` or `~/.local/bin`
+copy `taskmobar` script to somewhere in your path like `/usr/local/bin` or `~/.local/bin`
 
 add the following command block to your `xmobarrc`:
 
