@@ -14,9 +14,11 @@ if there are no active tasks, it will output "No active task"
 copy the script to somewhere in your path like `/usr/local/bin` or `~/.local/bin`
 
 add the following command block to your `xmobarrc`:
+
 `, Run Com "taskmobar" [ ] "task" 30`
 
 then, in your main template you can do something like:
+
 `, template = "%battery% | %multicpu% | %coretemp% | %memory% | %dynnetwork%}%XMonadLog% <fc=#FF8C00> %task% </fc>{%KOMA% | %date% "`
 
 you can see I just added `<fc=#FF8C00> %task% </fc>` for the command to be printed in orange text.
@@ -48,4 +50,4 @@ function complete() {
   task
 }
 ```
-you may not want the `clear; task` part, but i like the refresh and see the updated task queue.
+you may not want the `clear; task` part, but i like to refresh and see the updated task queue.
