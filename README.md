@@ -17,11 +17,11 @@ add the following command block to your `xmobarrc`:
 
 `, Run Com "taskmobar" [ ] "task" 30`
 
-then, in your main template you can do something like:
+this will refresh every 30 seconds. then, in your main template you can do something like:
 
 `, template = "%battery% | %multicpu% | %coretemp% | %memory% | %dynnetwork%}%XMonadLog% <fc=#FF8C00> %task% </fc>{%KOMA% | %date% "`
 
-you can see I just added `<fc=#FF8C00> %task% </fc>` for the command to be printed in orange text.
+you can see I just added `<fc=#FF8C00> %task% </fc>` for the output to be printed in orange text.
 
 # other useful snippets
 in your shell's rc file, you can make taskwarrior commands quicker with something like:
