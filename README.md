@@ -8,6 +8,7 @@ very simply outputs the active task's description for consumption by xmobar (or 
 if there are multiple active tasks, you just get the one with the lowest id number
 
 if there are no active tasks, it will output "No active task"
+![](noactive.png)
 
 # usage
 copy the script to somewhere in your path like `/usr/local/bin` or `~/.local/bin`
