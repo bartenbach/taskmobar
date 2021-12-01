@@ -11,7 +11,7 @@ if there are no active tasks, it will output "No active task"
 ![](img/noactive.png)
 
 # usage
-copy `taskmobar` script to somewhere in your path like `/usr/local/bin` or `~/.local/bin`
+copy `taskmobar` script to somewhere in your $PATH like `/usr/local/bin` or `~/.local/bin`
 
 add the following command block to your `xmobarrc`:
 
